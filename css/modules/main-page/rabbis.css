@@ -1,0 +1,85 @@
+.rabbis__container {
+  padding-top: 50px;
+  padding-bottom: 315px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.single-rabbie {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 1022px;
+  height: 290px;
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 32px 42px 30px 29px;
+}
+
+
+.single-rabbie__img {
+  width: 219px;
+  height: 228px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.single-rabbie__info {
+  padding-top: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.single-rabbie__title {
+  max-width: 679px;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 12px;
+}
+
+.single-rabbie__sinagogue-name {
+  max-width: 679px;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--gray-dark);
+  margin-bottom: 18px;
+}
+
+.single-rabbie__wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 53px;
+}
+
+.single-rabbie__about {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 165.69%;
+  color: var(--gray-light);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-width: 338px;
+  max-height: 81px;
+  padding-bottom: 10px;
+
+}
+
+.single-rabbie__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 24px;
+  width: 272px;
+  height: 52px;
+  background-color: var(--yellow);
+  color: #FFFFFF;
+  border-radius: 13px;
+}
