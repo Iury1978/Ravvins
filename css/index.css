@@ -3,8 +3,9 @@
 @import "./fonts.css";
 @import "./variables.css";
 
-@import "./modules/rabbis-header.css";
 @import "./modules/rating.css";
+@import "./modules/rabbis-header.css";
+
 
 /* главная страница */
 @import "./modules/main-page/rabbis-header.css";
