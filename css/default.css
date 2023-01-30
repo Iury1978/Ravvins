@@ -6,7 +6,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
- 
+
 }
 
 
@@ -56,4 +56,28 @@ fieldset {
   max-width: 1440px;
   padding: 0 140px;
   margin: 0 auto;
+}
+
+@media (max-width: 1150px) {
+  .container {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 16px;
+  }
 }

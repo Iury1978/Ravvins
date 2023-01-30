@@ -10,6 +10,7 @@
 }
 
 .rabbie__wrapper-left {
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
 }
@@ -81,18 +82,12 @@
   /* fill: none; */
 }
 
-/* .rabbie-contact__img {
-  fill: none;
-  stroke: #757575;
-} */
-
 .rabbie-contact__icon {
   fill: inherit;
   height: 24px;
   width: 24px;
   transition: .2s;
 }
-
 
 .rabbie-contact__icon_fb {
   width: 26px;
@@ -145,9 +140,95 @@
   justify-content: center;
   font-weight: 300;
   font-size: 24px;
-  width: 326px;
+  max-width: 326px;
   height: 53px;
   background-color: var(--yellow);
   color: #FFFFFF;
   border-radius: 13px;
 }
+
+.rabbie__link_mobile {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .rabbie__container {
+    gap: 20px;
+    padding: 20px 30px 25px 20px;
+  }
+
+  .rabbie__title {
+    font-size: 28px;
+    line-height: 25px;
+  }
+
+  .rabbie__title_biography {
+    font-size: 20px;
+  }
+
+  .rabbie__link {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .rabbie__container {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .rabbie__photo {
+    width: 210px;
+    height: 203px;
+  }
+
+  .rabbie-row__title {
+    font-size: 14px;
+  }
+
+  .rabbie-row__text {
+    font-size: 14px;
+  }
+
+  .rabbie__link_desktop {
+    display: none;
+  }
+
+  .rabbie__link_mobile {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  .rabbie__container {
+    flex-direction: column;
+  }
+
+  .rabbie__photo {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .rabbie__subtitle-short-info {
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  .rabbie-row__title {
+    font-size: 12px;
+  }
+
+  .rabbie-row__text {
+    font-size: 12px;
+  }
+
+  .rabbie-contact__title {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .rabbie__link {
+   margin: 0 auto;
+  }
+
+}
+

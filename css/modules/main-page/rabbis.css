@@ -17,7 +17,6 @@
 .rabbis__container {
   padding-top: 50px;
   padding-bottom: 315px;
-
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -40,7 +39,6 @@
 .single-rabbie__img {
   width: 219px;
   height: 228px;
-  object-fit: cover;
   border-radius: 6px;
 }
 
@@ -63,7 +61,6 @@
   font-size: 20px;
   line-height: 23px;
   color: var(--gray-dark);
-  margin-bottom: 18px;
 }
 
 .single-rabbie__wrapper {
@@ -98,4 +95,203 @@
   background-color: var(--yellow);
   color: #FFFFFF;
   border-radius: 13px;
+}
+
+@media (max-width: 1150px) {
+
+  .rabbis__about {
+    padding-top: 10px;
+  }
+
+  .rabbis__about-text {
+    font-size: 14px;
+  }
+
+  .rabbis__container {
+    padding-top: 30px;
+    padding-bottom: 250px;
+  }
+
+  .single-rabbie {
+    padding: 20px 30px 20px 20px;
+    height: 270px;
+  }
+
+
+
+  .single-rabbie__title {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+
+  .single-rabbie__sinagogue-name {
+    font-size: 16px;
+  }
+
+  .single-rabbie__wrapper {
+    gap: 30px;
+  }
+
+  .single-rabbie__about {
+    font-size: 14px;
+    max-height: 70px;
+    padding-bottom: 10px;
+
+  }
+
+  .single-rabbie__link {
+    font-size: 20px;
+    width: 200px;
+    height: 46px;
+
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .single-rabbie__link {
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 800px) {
+
+
+  .rabbis__container {
+    padding-top: 20px;
+    padding-bottom: 150px;
+  }
+
+  .single-rabbie {
+    padding: 15px 15px 10px 10px;
+  }
+
+  .single-rabbie__title {
+    line-height: 20px;
+    font-size: 20px;
+  }
+
+  .single-rabbie__info {
+    flex-grow: 1;
+  }
+
+  .single-rabbie__sinagogue-name {
+    font-size: 14px;
+  }
+
+  .single-rabbie__wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .single-rabbie__about {
+    font-size: 12px;
+    max-height: 60px;
+    padding-bottom: 5px;
+    max-width: 100%;
+  }
+
+  .single-rabbie__link {
+    font-size: 16px;
+    width: 170px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .single-rabbie {
+    height: 210px;
+  }
+
+  .single-rabbie__img {
+    width: 172px;
+    height: 179px;
+  }
+
+  .single-rabbie__title {
+    font-size: 16px;
+  }
+
+  .single-rabbie__sinagogue-name {
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .single-rabbie__wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .single-rabbie__about {
+    font-size: 12px;
+    max-height: 60px;
+    padding-bottom: 5px;
+    max-width: 100%;
+    line-height: 20px;
+  }
+
+  .single-rabbie__link {
+    font-size: 12px;
+    width: 120px;
+    height: 30px;
+    flex-shrink: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .rabbis__container {
+    padding-bottom: 50px;
+  }
+
+  .single-rabbie {
+    height: 210px;
+  }
+
+  .single-rabbie__img {
+    width: 150px;
+    height: 156px;
+  }
+
+  .single-rabbie__title {
+    font-size: 16px;
+  }
+
+  .single-rabbie__sinagogue-name {
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .single-rabbie__wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .single-rabbie__about {
+    font-size: 12px;
+    max-height: 60px;
+    padding-bottom: 5px;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+  }
+
+  .single-rabbie__link {
+    font-size: 12px;
+    width: 90px;
+    height: 30px;
+    flex-shrink: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .single-rabbie {
+    height: 210px;
+  }
+
+  .single-rabbie__img {
+    width: 100px;
+    height: 104px;
+  }
 }

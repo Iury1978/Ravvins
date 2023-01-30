@@ -30,3 +30,17 @@
 .quiz-yes-no__button:hover {
   background-color: var(--blue);
 }
+
+@media (max-width: 600px) {
+  .quiz-yes-no__title {
+    font-size: 26px;
+    line-height: 42px;
+    margin-bottom: 25px;
+  }
+
+  .quiz-yes-no__button {
+    width: 70px;
+    height: 50px;
+    font-size: 26px;
+  }
+}

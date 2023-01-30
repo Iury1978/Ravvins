@@ -13,7 +13,8 @@
 
 .breadcrumb__items {
   display: flex;
-  gap: 17px;
+  flex-wrap: wrap;
+  gap: 3px 17px;
 }
 
 .breadcrumb__item {
@@ -52,7 +53,6 @@
 .rabbis-header__rating {
   display: flex;
   gap: 14px;
-  margin-right: 40px;
 }
 
 
@@ -69,4 +69,55 @@
   font-size: 16px;
   line-height: 19px;
   opacity: 0.5;
+}
+
+@media (max-width: 1150px) {
+  .strip {
+    height: 60px;
+  }
+
+  .rabbis-header__container {
+    padding: 25px 0;
+  }
+
+  .rabbis-header__title {
+    font-size: 36px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .strip {
+    height: 30px;
+  }
+
+  .rabbis-header__container {
+    padding: 15px 0;
+  }
+
+  .rabbis-header__title {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .rabbis-header__reaction {
+    display: flex;
+    align-items: center;
+  }
+
+  .rabbis-header__rating {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .rabbis-header__views-text {
+    font-size: 12px;
+    margin-right: 12px;
+  }
+
+  .rabbis-header__thanks-text {
+    font-size: 12px;
+  }
 }
