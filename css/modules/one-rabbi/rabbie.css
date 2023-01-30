@@ -84,13 +84,46 @@
 
 .rabbie-contact__icon {
   fill: inherit;
+  stroke: inherit;
   height: 24px;
   width: 24px;
   transition: .2s;
 }
 
+.rabbie-contact__icon_dont-know {
+  stroke: var(--social);
+  fill: none;
+}
+
+.rabbie-contact__icon_dont-know:hover {
+  stroke: var(--gray);
+  fill: none;
+}
+
+.rabbie-contact__icon_vk {
+  fill: var(--social);
+}
+
+.rabbie-contact__icon_vk:hover {
+  fill: var(--gray);
+}
+
+.rabbie-contact__icon_instagram {
+  fill: var(--social);
+}
+
+.rabbie-contact__icon_instagram:hover {
+  fill: var(--gray);
+}
+
 .rabbie-contact__icon_fb {
   width: 26px;
+  stroke: var(--social);
+  fill: none;
+}
+
+.rabbie-contact__icon_fb:hover {
+  stroke: var(--gray);
 }
 
 .rabbie__wrapper-right {
@@ -227,8 +260,7 @@
   }
 
   .rabbie__link {
-   margin: 0 auto;
+    margin: 0 auto;
   }
 
 }
-
