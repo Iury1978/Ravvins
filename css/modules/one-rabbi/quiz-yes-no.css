@@ -1,0 +1,32 @@
+.quiz-yes-no {
+  padding: 60px 20px 116px;
+}
+
+.quiz-yes-no__title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 51px;
+}
+
+.quiz-yes-no__buttons {
+  display: flex;
+  gap: 29px;
+  justify-content: center;
+}
+
+.quiz-yes-no__button {
+  width: 98px;
+  height: 60px;
+  border: none;
+  background-color: #77D5DD;
+
+  border-radius: 8px;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+.quiz-yes-no__button:hover {
+  background-color: var(--blue);
+}

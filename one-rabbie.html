@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Раввины</title>
+
+  <link rel="preload" href="fonts/roboto-v30-latin_cyrillic-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/roboto-v30-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/roboto-v30-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <div class="strip"></div>
+
+  <section class="rabbis-header">
+    <div class="container">
+      <div class="rabbis-header__container">
+        <div class="breadcrumb">
+          <ul class="breadcrumb__items">
+            <li class="breadcrumb__item"><a href="#!" class="breadcrumb__link">Все синагоги</a></li>
+            <li class="breadcrumb__item"><a href="#!" class="breadcrumb__link">Раввины</a></li>
+            <li class="breadcrumb__item"><a href="#!" class="breadcrumb__link">Москва</a></li>
+            <li class="breadcrumb__item"><a href="#!" class="breadcrumb__link">Раввин Адольф Соломонович Шаевич</a></li>
+          </ul>
+        </div>
+
+        <h1 class="rabbis-header__title">Раввин Адольф Соломонович Шаевич</h1>
+        <div class="rabbis-header__reaction">
+          <div class="rabbis-header__rating">
+            <form action="#"  class="form ">
+              <div class="form__item">
+                <div class="rating rating_set">
+                  <div class="rating__body">
+
+                    <!-- rating__active полоса заполнения в зависимости от оценки  -->
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input class="rating__item" value="5" type="radio" name="rating" id="rating-5">
+                      <label class="rating__label" for="rating-5">
+                        <svg class="rating__star-icon">
+                          <use xlink:href="img/sprite.svg#rating-star" />
+                        </svg>
+                      </label>
+
+                      <input class="rating__item" value="4" type="radio" name="rating" id="rating-4">
+                      <label class="rating__label" for="rating-4">
+                        <svg class="rating__star-icon">
+                          <use xlink:href="img/sprite.svg#rating-star" />
+                        </svg>
+                      </label>
+
+                      <input class="rating__item" value="3" type="radio" name="rating" id="rating-3">
+                      <label class="rating__label" for="rating-3">
+                        <svg class="rating__star-icon">
+                          <use xlink:href="img/sprite.svg#rating-star" />
+                        </svg>
+                      </label>
+
+                      <input class="rating__item" value="2" type="radio" name="rating" id="rating-2">
+                      <label class="rating__label" for="rating-2">
+                        <svg class="rating__star-icon">
+                          <use xlink:href="img/sprite.svg#rating-star" />
+                        </svg>
+                      </label>
+
+                      <input class="rating__item" value="1" type="radio" name="rating" id="rating-1">
+                      <label class="rating__label" for="rating-1">
+                        <svg class="rating__star-icon">
+                          <use xlink:href="img/sprite.svg#rating-star" />
+                        </svg>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="rating__value">0</div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <span class="rabbis-header__views-text">просмотрели <span class="rabbis-header__views-sum">0</span> раз</span>
+          <span class="rabbis-header__thanks-text"><span class="rabbis-header__thanks-sum">419</span> сказали
+            спасибо</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rabbie">
+    <div class="container">
+      <div class="rabbie__container">
+        <div class="rabbie__wrapper-left">
+          <img class="rabbie__photo" src="/img/rabbie-big.jpg" alt="фото раввина">
+          <p class="rabbie__subtitle-short-info">Краткая информация</p>
+          <div class="rabbie-row rabbie-row_border-bottom">
+            <p class="rabbie-row__title">Синагога</p>
+            <p class="rabbie-row__text ">Московская хоральная Синагога</p>
+          </div>
+          <div class="rabbie-row rabbie-row_border-bottom">
+            <p class="rabbie-row__title">Адрес</p>
+            <p class="rabbie-row__text">Москва Б.&nbsp;Спасоглинищевский пер., 10с1</p>
+          </div>
+          <div class="rabbie-row rabbie-row_border-bottom">
+            <p class="rabbie-row__title">Год рождения</p>
+            <p class="rabbie-row__text">1964</p>
+          </div>
+          <div class="rabbie-row">
+            <p class="rabbie-row__title">Место рождения</p>
+            <p class="rabbie-row__text">Биробиджан, СССР</p>
+          </div>
+
+          <div class="rabbie-contact">
+            <h3 class="rabbie-contact__title">Данные для связи</h3>
+            <div class="rabbie-contact__wrapper">
+              <a href="#!" class="rabbie-contact__link">
+                <!-- <img class="rabbie-contact__img rabbie-contact__img_dont" src="./img/social-dont-know.svg" alt=""> -->
+                <svg class="rabbie-contact__icon rabbie-contact__icon_dont-know">
+                  <use xlink:href="img/sprite.svg#dont-know" />
+                </svg>
+
+              </a>
+              <a href="#!" class="rabbie-contact__link">
+                <!-- <img class="rabbie-contact__img rabbie-contact__img_vk" src="./img/social-vk.svg" alt=""> -->
+                <svg class="rabbie-contact__icon rabbie-contact__icon_vk">
+                  <use xlink:href="img/sprite.svg#social-vk" />
+                </svg>
+              </a>
+              <a href="#!" class="rabbie-contact__link">
+                <!-- <img class="rabbie-contact__img rabbie-contact__img_instagram" src="./img/social-instagram.svg" alt=""> -->
+                <svg class="rabbie-contact__icon">
+                  <use xlink:href="img/sprite.svg#social-instagram" />
+                </svg>
+              </a>
+              <a href="#!" class="rabbie-contact__link">
+                <!-- <img class="rabbie-contact__img rabbie-contact__img_fb" src="./img/social-fb.svg" alt=""> -->
+                <svg class="rabbie-contact__icon rabbie-contact__icon_fb">
+                  <use xlink:href="img/sprite.svg#social-fb" />
+                </svg>
+              </a>
+            </div>
+            <div class="rabbie-row rabbie-row_border-bottom">
+              <p class="rabbie-row__title">Телефон</p>
+              <a class="rabbie-row__text rabbie-row__text_phone" href="tel:+74995695485">+7 499 569 54 85</a>
+            </div>
+            <div class="rabbie-row rabbie-row_email">
+              <p class="rabbie-row__title">E-mail</p>
+              <a class="rabbie-row__text " href="mailto:coolest_rav@gmail.com">coolest_rav@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="rabbie__wrapper-right">
+          <h2 class="rabbie__title">Адольф Соломонович Шаевич</h2>
+          <p class="rabbie__desc rabbie__desc_title">Адольф Соломонович Шаевич — главный раввин Московской хоральной
+            синагоги.
+            Заслуженный тратата. Преподаватель еврейского университета.
+          </p>
+          <h3 class="rabbie__title rabbie__title_biography">Биография</h3>
+          <p class="rabbie__desc rabbie__desc_biography">
+            Адольф Шаевич родился в Хабаровске 28 октября 1937 г. и большую часть жизни
+            — 35 лет — прожил в Биробиджане. Его родители в 30-е годы приехали на Дальний Восток. Раввин Давид Юшуваев,
+            руководитель ЦЕРО «Тора ми-Цион» родился в Ташкенте, а в одиннадцатилетнем возрасте переехал
+            с родителями в Израиль.Адольф Шаевич родился в Хабаровске
+            28 октября 1937 г. и большую часть жизни — 35 лет — прожил в Биробиджане.
+          </p>
+          <h3 class="rabbie__title rabbie__title_biography rabbie__title_career">Биография</h3>
+          <p class="rabbie__desc  rabbie__desc_career">Его родители в 30-е годы приехали на Дальний Восток. Раввин
+            Давид Юшуваев,
+            руководитель ЦЕРО «Тора ми-Цион» родился в
+            Ташкенте, а в одиннадцатилетнем возрасте переехал с родителями в Израиль.</p>
+          <a href="#!" class="rabbie__link">Посмотреть синагогу</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quiz-yes-no">
+    <h2 class="quiz-yes-no__title">Вы были в синагоге в этом году?</h2>
+    <div class="quiz-yes-no__buttons">
+      <button class="quiz-yes-no__button quiz-yes-no__button_yes">ДА</button>
+      <button class="quiz-yes-no__button quiz-yes-no__button_no">НЕТ</button>
+    </div>
+  </section>
+
+  <section class="comments">
+    <div class="comments__container">
+      <h3 class="comments__title">Задать вопрос или оставить комментарий</h3>
+      <div class="comments__notes">
+      <form action="#"  class="form ">
+        <div class="form__item">
+          <div class="rating rating_set">
+            <div class="rating__body">
+      
+              <!-- rating__active полоса заполнения в зависимости от оценки  -->
+              <div class="rating__active"></div>
+              <div class="rating__items">
+                <input class="rating__item" value="5" type="radio" name="rating" id="rating-5-1">
+                <label class="rating__label" for="rating-5-1">
+                  <svg class="rating__star-icon">
+                    <use xlink:href="img/sprite.svg#rating-star" />
+                  </svg>
+                </label>
+      
+                <input class="rating__item" value="4" type="radio" name="rating" id="rating-4-1">
+                <label class="rating__label" for="rating-4-1">
+                  <svg class="rating__star-icon">
+                    <use xlink:href="img/sprite.svg#rating-star" />
+                  </svg>
+                </label>
+      
+                <input class="rating__item" value="3" type="radio" name="rating" id="rating-3-1">
+                <label class="rating__label" for="rating-3-1">
+                  <svg class="rating__star-icon">
+                    <use xlink:href="img/sprite.svg#rating-star" />
+                  </svg>
+                </label>
+      
+                <input class="rating__item" value="2" type="radio" name="rating" id="rating-2-1">
+                <label class="rating__label" for="rating-2-1">
+                  <svg class="rating__star-icon">
+                    <use xlink:href="img/sprite.svg#rating-star" />
+                  </svg>
+                </label>
+      
+                <input class="rating__item" value="1" type="radio" name="rating" id="rating-1-1">
+                <label class="rating__label" for="rating-1-1">
+                  <svg class="rating__star-icon">
+                    <use xlink:href="img/sprite.svg#rating-star" />
+                  </svg>
+                </label>
+              </div>
+            </div>
+            <div class="rating__value">0</div>
+          </div>
+        </div>
+      </form>
+      </div>
+      <form action="#" class="your-comment">
+        <textarea class="your-comment__text" name="comments-text" id="comments-text" cols="40" rows="10"
+          placeholder="Задайте ваш вопрос здесь..." required></textarea>
+      </form>
+      <div class="comments__all">
+        <ul class="comments__list">
+          <li class="comment">
+            <div class="comment__wrapper">
+              <div class="comment__inner-wrapper">
+                <div class="comment__photo">
+                  <img class="comment__img" src="./img/rabbie-small.jpg" alt="Аватарка">
+                </div>
+                <div class="comment__body">
+                  <div class="comment__wrap-1">
+                    <h4 class="comment__author">Максим Кац</h4>
+                    <p class="comment__meta">January 9, 2018 at 2:21pm</p>
+                  </div>
+                  <p class="comment__text">Адольф Соломонович Шаевич очень помог моей семье, когда настали трудные
+                    времени.
+                    Школа, которую он организовал для всех
+                    прихожан, подготовила дочку к поступлению к Кембридж. Не говоря уже обо всех наставлениях Адольфа
+                    Соломоновича, которые спасали меня всегда. Спасибо!
+                  </p>
+                  <div class="comment__wrap-2">
+                    <div>звездочки</div>
+                    <a href="#" class="comment__reply">Ответить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="comment__mark">
+                <div class="comment-mark comment-mark_good">
+                  <svg class="comment__mark-img">
+                    <use xlink:href="img/sprite.svg#good" />
+                  </svg>
+                </div>
+                <div class="comment-mark comment-mark_bad">
+                  <svg class="comment__mark-img">
+                    <use xlink:href="img/sprite.svg#bad" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="comment">
+            <div class="comment__wrapper">
+              <div class="comment__inner-wrapper">
+                <div class="comment__photo">
+                  <img class="comment__img" src="./img/rabbie-small.jpg" alt="Аватарка">
+                </div>
+                <div class="comment__body">
+                  <div class="comment__wrap-1">
+                    <h4 class="comment__author">Максим Кац</h4>
+                    <p class="comment__meta">January 9, 2018 at 2:21pm</p>
+                  </div>
+                  <p class="comment__text">Адольф Соломонович Шаевич очень помог моей семье, когда настали трудные
+                    времени.
+                    Школа, которую он организовал для всех
+                    прихожан, подготовила дочку к поступлению к Кембридж. Не говоря уже обо всех наставлениях Адольфа
+                    Соломоновича, которые спасали меня всегда. Спасибо!
+                  </p>
+                  <div class="comment__wrap-2">
+                    <div>звездочки</div>
+                    <a href="#" class="comment__reply">Ответить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="comment__mark">
+                <div class="comment-mark comment-mark_good">
+                  <svg class="comment__mark-img">
+                    <use xlink:href="img/sprite.svg#good" />
+                  </svg>
+                </div>
+                <div class="comment-mark comment-mark_bad">
+                  <svg class="comment__mark-img">
+                    <use xlink:href="img/sprite.svg#bad" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <ul class="comments__list comments__list_children">
+              <li class="comment">
+                <div class="comment__wrapper">
+                  <div class="comment__inner-wrapper">
+                    <div class="comment__photo">
+                      <img class="comment__img" src="./img/rabbie-small.jpg" alt="Аватарка">
+                    </div>
+                    <div class="comment__body">
+                      <div class="comment__wrap-1">
+                        <h4 class="comment__author">Максим Кац</h4>
+                        <p class="comment__meta">January 9, 2018 at 2:21pm</p>
+                      </div>
+                      <p class="comment__text comment__text_children">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Neque in quia sit praesentium sequi tenetur iusto iure corporis. Ipsum recusandae,
+                        voluptate
+                        suscipit obcaecati libero ab eos. Veritatis, possimus laudantium a tempore saepe officia tenetur
+                        dolores dolorem voluptate nemo consectetur architecto?
+                      </p>
+                      <div class="comment__wrap-2">
+                        <a href="#" class="comment__reply">Ответить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="comment__mark">
+                    <div class="comment-mark comment-mark_good">
+                      <svg class="comment__mark-img">
+                        <use xlink:href="img/sprite.svg#good" />
+                      </svg>
+                    </div>
+                    <div class="comment-mark comment-mark_bad">
+                      <svg class="comment__mark-img">
+                        <use xlink:href="img/sprite.svg#bad" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <ul class="comments__list comments__list_children">
+                  <li class="comment">
+                    <div class="comment__wrapper">
+                      <div class="comment__inner-wrapper">
+                        <div class="comment__photo">
+                          <img class="comment__img" src="./img/rabbie-small.jpg" alt="Аватарка">
+                        </div>
+                        <div class="comment__body">
+                          <div class="comment__wrap-1">
+                            <h4 class="comment__author">Максим Кац</h4>
+                            <p class="comment__meta">January 9, 2018 at 2:21pm</p>
+                          </div>
+                          <p class="comment__text comment__text_children">Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit. Neque in quia sit praesentium sequi tenetur iusto iure corporis. Ipsum recusandae,
+                            voluptate
+                            suscipit obcaecati libero ab eos. Veritatis, possimus laudantium a tempore saepe officia
+                            tenetur
+                            dolores dolorem voluptate nemo consectetur architecto?
+                          </p>
+                          <div class="comment__wrap-2">
+                            <a href="#" class="comment__reply">Ответить</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comment__mark">
+                        <div class="comment-mark comment-mark_good">
+                          <svg class="comment__mark-img">
+                            <use xlink:href="img/sprite.svg#good" />
+                          </svg>
+                        </div>
+                        <div class="comment-mark comment-mark_bad">
+                          <svg class="comment__mark-img">
+                            <use xlink:href="img/sprite.svg#bad" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="comment">
+                    <div class="comment__wrapper">
+                      <div class="comment__inner-wrapper">
+                        <div class="comment__photo">
+                          <img class="comment__img" src="./img/rabbie-small.jpg" alt="Аватарка">
+                        </div>
+                        <div class="comment__body">
+                          <div class="comment__wrap-1">
+                            <h4 class="comment__author">Максим Кац</h4>
+                            <p class="comment__meta">January 9, 2018 at 2:21pm</p>
+                          </div>
+                          <p class="comment__text comment__text_children">Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit. Neque in quia sit praesentium sequi tenetur iusto iure corporis. Ipsum recusandae,
+                            voluptate
+                            suscipit obcaecati libero ab eos. Veritatis, possimus laudantium a tempore saepe officia
+                            tenetur
+                            dolores dolorem voluptate nemo consectetur architecto?
+                          </p>
+                          <div class="comment__wrap-2">
+                            <a href="#" class="comment__reply">Ответить</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comment__mark">
+                        <div class="comment-mark comment-mark_good">
+                          <svg class="comment__mark-img">
+                            <use xlink:href="img/sprite.svg#good" />
+                          </svg>
+                        </div>
+                        <div class="comment-mark comment-mark_bad">
+                          <svg class="comment__mark-img">
+                            <use xlink:href="img/sprite.svg#bad" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="comments__list comments__list_children">
+                      <li class="comment">
+                        <div class="comment__wrapper">
+                          <div class="comment__inner-wrapper">
+                            <div class="comment__photo">
+                              <img class="comment__img" src="./img/rabbie-small.jpg" alt="Аватарка">
+                            </div>
+                            <div class="comment__body">
+                              <div class="comment__wrap-1">
+                                <h4 class="comment__author">Максим Кац</h4>
+                                <p class="comment__meta">January 9, 2018 at 2:21pm</p>
+                              </div>
+                              <p class="comment__text comment__text_children">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Neque in quia sit praesentium sequi tenetur iusto iure corporis. Ipsum recusandae,
+                                voluptate
+                                suscipit obcaecati libero ab eos. Veritatis, possimus laudantium a tempore saepe officia
+                                tenetur
+                                dolores dolorem voluptate nemo consectetur architecto?
+                              </p>
+                              <div class="comment__wrap-2">
+                                <a href="#" class="comment__reply">Ответить</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="comment__mark">
+                            <div class="comment-mark comment-mark_good">
+                              <svg class="comment__mark-img">
+                                <use xlink:href="img/sprite.svg#good" />
+                              </svg>
+                            </div>
+                            <div class="comment-mark comment-mark_bad">
+                              <svg class="comment__mark-img">
+                                <use xlink:href="img/sprite.svg#bad" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="comment">
+                        <div class="comment__wrapper">
+                          <div class="comment__inner-wrapper">
+                            <div class="comment__photo">
+                              <img class="comment__img" src="./img/rabbie-small.jpg" alt="Аватарка">
+                            </div>
+                            <div class="comment__body">
+                              <div class="comment__wrap-1">
+                                <h4 class="comment__author">Максим Кац</h4>
+                                <p class="comment__meta">January 9, 2018 at 2:21pm</p>
+                              </div>
+                              <p class="comment__text comment__text_children">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Neque in quia sit praesentium sequi tenetur iusto iure corporis. Ipsum recusandae,
+                                voluptate
+                                suscipit obcaecati libero ab eos. Veritatis, possimus laudantium a tempore saepe officia
+                                tenetur
+                                dolores dolorem voluptate nemo consectetur architecto?
+                              </p>
+                              <div class="comment__wrap-2">
+                                <a href="#" class="comment__reply">Ответить</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="comment__mark">
+                            <div class="comment-mark comment-mark_good">
+                              <svg class="comment__mark-img">
+                                <use xlink:href="img/sprite.svg#good" />
+                              </svg>
+                            </div>
+                            <div class="comment-mark comment-mark_bad">
+                              <svg class="comment__mark-img">
+                                <use xlink:href="img/sprite.svg#bad" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="comment">
+                <div class="comment__wrapper">
+                  <div class="comment__inner-wrapper">
+                    <div class="comment__photo">
+                      <img class="comment__img" src="./img/rabbie-small.jpg" alt="Аватарка">
+                    </div>
+                    <div class="comment__body">
+                      <div class="comment__wrap-1">
+                        <h4 class="comment__author">Максим Кац</h4>
+                        <p class="comment__meta">January 9, 2018 at 2:21pm</p>
+                      </div>
+                      <p class="comment__text comment__text_children">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Neque in quia sit praesentium sequi tenetur iusto iure corporis. Ipsum recusandae,
+                        voluptate
+                        suscipit obcaecati libero ab eos. Veritatis, possimus laudantium a tempore saepe officia tenetur
+                        dolores dolorem voluptate nemo consectetur architecto?
+                      </p>
+                      <div class="comment__wrap-2">
+                        <a href="#" class="comment__reply">Ответить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="comment__mark">
+                    <div class="comment-mark comment-mark_good">
+                      <svg class="comment__mark-img">
+                        <use xlink:href="img/sprite.svg#good" />
+                      </svg>
+                    </div>
+                    <div class="comment-mark comment-mark_bad">
+                      <svg class="comment__mark-img">
+                        <use xlink:href="img/sprite.svg#bad" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

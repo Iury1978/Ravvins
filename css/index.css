@@ -3,5 +3,13 @@
 @import "./fonts.css";
 @import "./variables.css";
 
+@import "./rating.css";
+
+/* главная страница */
 @import "./modules/main-page/rabbis-header.css";
 @import "./modules/main-page/rabbis.css";
+
+/* страница отдельного раввина */
+@import "./modules/one-rabbi/rabbie.css";
+@import "./modules/one-rabbi/quiz-yes-no.css";
+@import "./modules/one-rabbi/comments.css";

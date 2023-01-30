@@ -4,7 +4,7 @@
 }
 
 .rabbis-header__container {
-  padding-top: 40px;
+  padding: 40px 0;
 }
 
 .breadcrumb {
@@ -47,38 +47,14 @@
 .rabbis-header__reaction {
   display: flex;
   align-items: center;
-  margin-bottom: 39px;
 }
 
-.rating-rabbis {
+.rabbis-header__rating {
   display: flex;
   gap: 14px;
   margin-right: 40px;
 }
 
-.rating-rabbis__items {
-  display: flex;
-  align-items: center;
-  gap: 1px;
-}
-
-
-.rating-rabbis__img {
-  height: 13px;
-  width: 14px;
-  background-position: center;
-}
-
-.rating-rabbis__items {
-  line-height: 0;
-}
-
-.rating-rabbis-value {
-  font-weight: 300;
-  line-height: 19px;
-  color: #79D4DD;
-  opacity: 0.5;
-}
 
 .rabbis-header__views-text {
   font-weight: 300;

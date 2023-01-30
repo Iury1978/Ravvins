@@ -1,0 +1,153 @@
+.rabbie__container {
+  display: flex;
+  gap: 42px;
+  max-width: 1160px;
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 42px 79px 47px 42px;
+}
+
+.rabbie__wrapper-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.rabbie__photo {
+  width: 315px;
+  height: 304px;
+  border-radius: 13px;
+  margin-bottom: 33px;
+  object-fit: contain;
+}
+
+.rabbie__subtitle-short-info {
+  font-size: 21.5753px;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+
+.rabbie-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+
+.rabbie-row_email {
+  padding-bottom: 0;
+}
+
+.rabbie-row_border-bottom {
+  width: 100%;
+  border-bottom: 2px solid #D1D1D1;
+}
+
+.rabbie-row__title {
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.54);
+  max-width: 132px;
+}
+
+.rabbie-row__text {
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.54);
+  text-align: end;
+  width: min-content;
+}
+
+.rabbie-row__text_phone {
+  width: auto;
+}
+
+.rabbie-contact {
+  padding-top: 19px;
+}
+
+.rabbie-contact__title {
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 24px;
+}
+
+.rabbie-contact__wrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.rabbie-contact__link {
+  line-height: 0;
+  /* fill: none; */
+}
+
+/* .rabbie-contact__img {
+  fill: none;
+  stroke: #757575;
+} */
+
+.rabbie-contact__icon {
+  fill: inherit;
+  height: 24px;
+  width: 24px;
+  transition: .2s;
+}
+
+
+.rabbie-contact__icon_fb {
+  width: 26px;
+}
+
+.rabbie__wrapper-right {
+  padding-top: 3px;
+}
+
+.rabbie__title {
+  font-size: 36px;
+  line-height: 42px;
+  max-width: 682px;
+  margin-bottom: 30px;
+}
+
+.rabbie__title_biography {
+  max-width: 600px;
+  font-size: 32px;
+  line-height: 27px;
+  color: var(--gray);
+  margin-bottom: 10px;
+}
+
+.rabbie__title_career {
+  margin-bottom: 19px;
+}
+
+.rabbie__desc {
+  max-width: 600px;
+  line-height: 27px;
+  color: var(--gray);
+}
+
+.rabbie__desc_title {
+  margin-bottom: 24px;
+}
+
+.rabbie__desc_biography {
+  margin-bottom: 23px;
+}
+
+.rabbie__desc_career {
+  margin-bottom: 72px;
+}
+
+.rabbie__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 24px;
+  width: 326px;
+  height: 53px;
+  background-color: var(--yellow);
+  color: #FFFFFF;
+  border-radius: 13px;
+}

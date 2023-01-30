@@ -31,40 +31,78 @@
         <h1 class="rabbis-header__title">Раввины в городе Москве</h1>
 
         <div class="rabbis-header__reaction">
-          <div class="rabbis-header__rating rating-rabbis">
+          <div class="rabbis-header__rating">
+            <form action="#" class="form ">
+              <div class="form__item">
+                <div class="rating rating_set">
+                  <div class="rating__body">
 
-            <!-- !!!!!!!!!!! доделать потом !!!!!!!!!!!!!!!!!!! -->
+                    <!-- rating__active полоса заполнения в зависимости от оценки  -->
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input class="rating__item" value="5" type="radio" name="rating" id="rating-5">
+                      <label class="rating__label" for="rating-5">
+                        <svg class="rating__star-icon">
+                          <use xlink:href="img/sprite.svg#rating-star" />
+                        </svg>
+                      </label>
 
-            <div class="rating-rabbis__items">
-              <img class="rating-rabbis__img" src="./img/icon_star.svg" alt="">
-              <img class="rating-rabbis__img" src="./img/icon_star.svg" alt="">
-              <img class="rating-rabbis__img" src="./img/icon_star.svg" alt="">
-              <img class="rating-rabbis__img" src="./img/icon_star.svg" alt="">
-              <img class="rating-rabbis__img" src="./img/icon_star.svg" alt="">
-            </div>
-            <span class="rating-rabbis-value">5.0</span>
+                      <input class="rating__item" value="4" type="radio" name="rating" id="rating-4">
+                      <label class="rating__label" for="rating-4">
+                        <svg class="rating__star-icon">
+                          <use xlink:href="img/sprite.svg#rating-star" />
+                        </svg>
+                      </label>
+
+                      <input class="rating__item" value="3" type="radio" name="rating" id="rating-3">
+                      <label class="rating__label" for="rating-3">
+                        <svg class="rating__star-icon">
+                          <use xlink:href="img/sprite.svg#rating-star" />
+                        </svg>
+                      </label>
+
+                      <input class="rating__item" value="2" type="radio" name="rating" id="rating-2">
+                      <label class="rating__label" for="rating-2">
+                        <svg class="rating__star-icon">
+                          <use xlink:href="img/sprite.svg#rating-star" />
+                        </svg>
+                      </label>
+
+                      <input class="rating__item" value="1" type="radio" name="rating" id="rating-1">
+                      <label class="rating__label" for="rating-1">
+                        <svg class="rating__star-icon">
+                          <use xlink:href="img/sprite.svg#rating-star" />
+                        </svg>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="rating__value">3.6</div>
+                </div>
+              </div>
+            </form>
+
+            <span class="rabbis-header__views-text">просмотрели <span class="rabbis-header__views-sum">0</span>
+              раз</span>
+            <span class="rabbis-header__thanks-text"><span class="rabbis-header__thanks-sum">419</span> сказали
+              спасибо</span>
+
           </div>
-
-          <span class="rabbis-header__views-text">просмотрели <span class="rabbis-header__views-sum">0</span> раз</span>
-          <span class="rabbis-header__thanks-text"><span class="rabbis-header__thanks-sum">419</span> сказали
-            спасибо</span>
-
         </div>
       </div>
-    </div>
+      </div>
   </section>
 
-  <section class="rabbis">
+  <div class="rabbis">
     <div class="container">
       <div class="rabbis__about">
         <p class="rabbis__about-text">
-          <a href="#!" class="rabbis-header__about-link">Все синагоги.ру</a> — специализированный сайт, где можно
+          <a href="#!" class="rabbis__about-link">Все синагоги.ру</a> — специализированный сайт, где можно
           найти всех раввинов России. На этой странице вы можете ознакомиться с раввинами в Москве.
           Чтобы поменять город, вернитесь на предыдущую страницу и выберите подходящий населенный пункт из списка.
         </p>
       </div>
       <div class="rabbis__container">
-        <div class="rabbis__single single-rabbie">
+        <article class="rabbis__single single-rabbie">
           <img src="./img/rabbie-small.jpg" alt="" class="single-rabbie__img">
           <div class="single-rabbie__info">
             <div>
@@ -79,11 +117,11 @@
                 Ducimus a voluptates quaerat, deserunt possimus reprehenderit ut inventore aut ipsa repellat provident
                 autem ratione, eius architecto voluptatibus aliquid cum tenetur?
               </p>
-              <a href="#!" class="single-rabbie__link">Подробнее</a>
+              <a href="/one-rabbie.html" class="single-rabbie__link">Подробнее</a>
             </div>
           </div>
-        </div>
-        <div class="rabbis__single single-rabbie">
+        </article>
+        <article class="rabbis__single single-rabbie">
           <img src="./img/rabbie-small.jpg" alt="" class="single-rabbie__img">
           <div class="single-rabbie__info">
             <div>
@@ -94,11 +132,11 @@
               <p class="single-rabbie__about">Адольф Шаевич родился в Хабаровске 28 октября 1937 г.
                 и большую часть жизни — 35 лет — прожил в Биробиджане...
               </p>
-              <a href="#!" class="single-rabbie__link">Подробнее</a>
+              <a href="/one-rabbie.html" class="single-rabbie__link">Подробнее</a>
             </div>
           </div>
-        </div>
-        <div class="rabbis__single single-rabbie">
+        </article>
+        <article class="rabbis__single single-rabbie">
           <img src="./img/rabbie-small.jpg" alt="" class="single-rabbie__img">
           <div class="single-rabbie__info">
             <div>
@@ -109,16 +147,16 @@
               <p class="single-rabbie__about">Адольф Шаевич родился в Хабаровске 28 октября 1937 г.
                 и большую часть жизни — 35 лет — прожил в Биробиджане...
               </p>
-              <a href="#!" class="single-rabbie__link">Подробнее</a>
+              <a href="/one-rabbie.html" class="single-rabbie__link">Подробнее</a>
             </div>
           </div>
-        </div>
+        </article>
 
       </div>
     </div>
-  </section>
+  </div>
 
-
+<script src="./js/index.js"></script>
 </body>
 
 </html>

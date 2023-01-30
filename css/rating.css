@@ -1,0 +1,86 @@
+.rating {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.rating__body {
+  position: relative;
+
+}
+
+.rating__body::before {
+  content: "";
+  display: block;
+  height: 14px;
+  width: 71px;
+}
+
+/* .rating__active {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.rating__active::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+} */
+
+.rating__items {
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+}
+
+.rating__item {
+  height: 100%;
+  opacity: 0;
+  display: none;
+}
+
+/*! вывожу сюда рейтинг! */
+.rating__value {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #79D4DD;
+}
+
+.rating__label {
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  fill: var(--blue-rank-breadcrumb);
+}
+
+.rating__items>.rating__item:hover~.rating__label,
+.rating__items>.rating__item:checked~.rating__label {
+  fill: rgb(44, 13, 182);
+}
+
+.rating__star-icon {
+  fill: inherit;
+
+  height: 14px;
+  width: 14px;
+  transition: .2s;
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+
+/* 
+.rating__star-icon:hover {
+  fill: inherit;
+} */
